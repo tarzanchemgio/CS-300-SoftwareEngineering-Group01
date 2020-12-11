@@ -9,6 +9,8 @@ export function SignUpView({ navigation }: any) {
 				<Image source={require("../Resources/Images/AR.png")} />
 				<Image source={require("../Resources/Images/money-tree.png")} />
 			</View>
+
+			<View></View>
 		</View>
 	);
 }
