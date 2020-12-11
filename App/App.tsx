@@ -26,9 +26,8 @@ import { TransactionsView } from "./Views/TransactionsView";
 import { ReportView } from "./Views/ReportView";
 import { LearnView } from "./Views/LearnView";
 import { AccountView } from "./Views/AccountView";
-import { RootStackParamList } from "./Shares/types";
 
-const Drawer = createDrawerNavigator<RootStackParamList>();
+const Drawer = createDrawerNavigator();
 const Stack = createStackNavigator();
 const Tab = createBottomTabNavigator();
 

@@ -4,11 +4,12 @@ import React, { useState } from "react";
 import { useNavigation } from "@react-navigation/native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { LoginViewModel } from "../ViewModels/LoginViewModel";
+import { StackScreenProps } from "@react-navigation/stack";
 
-export function LoginView() {
+export function LoginView({ navigation }: any) {
 	const loginViewModel = new LoginViewModel();
 
-	const navigation = useNavigation();
+	// const navigation = useNavigation();
 	return (
 		<View style={styles.container}>
 			<Text>Login View</Text>
@@ -20,3 +21,7 @@ export function LoginView() {
 		</View>
 	);
 }
+
+/* MONEY TREE */
+
+/* MONEY TREE */
