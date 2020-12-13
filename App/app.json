@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "ReactPractice",
-    "slug": "ReactPractice",
+    "name": "MoneyTree",
+    "slug": "MoneyTree",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

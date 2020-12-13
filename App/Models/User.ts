@@ -10,7 +10,7 @@ class User {
 
 	fullname?: string = "";
 	dateOfBirth?: string = "";
-	gender?: gender;
+	gender?: gender = gender.male;
 	email: string = "";
 	phone: string = "";
 }
