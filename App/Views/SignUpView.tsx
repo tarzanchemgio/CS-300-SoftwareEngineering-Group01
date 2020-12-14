@@ -56,6 +56,7 @@ export function SignUpView({ navigation }: any) {
 			accessible={false}
 		>
 			<View style={[styles.container, { paddingVertical: height * 0.05 }]}>
+				{/* Logo Group */}
 				<View style={[styles.container, styles.logo]}>
 					<Image source={require("../Resources/Images/AR.png")} />
 					<Image source={require("../Resources/Images/money-tree.png")} />
@@ -63,143 +64,162 @@ export function SignUpView({ navigation }: any) {
 
 				<View>
 					<View style={{ width: width * 0.8 }}>
-						<TextInput
-							style={signUpStyles.inputText}
-							placeholder="User name"
-							onChangeText={(username) => {
-								user.username = username;
-								setUser(user);
+						{/* Username & Password Group */}
+						<View style={{ marginVertical: 5 }}>
+							<TextInput
+								style={signUpStyles.inputText}
+								placeholder="User name"
+								onChangeText={(username) => {
+									user.username = username;
+									setUser(user);
 
-								// console.log(`Username: ${user.username}`);
-							}}
-						/>
-						<TextInput
-							style={signUpStyles.inputText}
-							placeholder="Password"
-							secureTextEntry={true}
-							onChangeText={(pwd) => {
-								user.password = pwd;
-								setUser(user);
+									// console.log(`Username: ${user.username}`);
+								}}
+							/>
+							<TextInput
+								style={signUpStyles.inputText}
+								placeholder="Password"
+								secureTextEntry={true}
+								onChangeText={(pwd) => {
+									user.password = pwd;
+									setUser(user);
 
-								// console.log(`Pwd: ${user.password}`);
-							}}
-						/>
-						<TextInput
-							style={signUpStyles.inputText}
-							placeholder="Full name"
-							onChangeText={(text) => {
-								user.fullname = text;
-								setUser(user);
-							}}
-						/>
-
-						<View style={{ flexDirection: "row" }}>
-							<View style={{ flex: 2 }}>
-								<TouchableNativeFeedback
-									onPress={() => {
-										setShowDatePicker(true);
-									}}
-								>
-									<View
-										style={[
-											{
-												flexDirection: "row",
-												backgroundColor: "white",
-												justifyContent: "space-between",
-												alignItems: "center",
-											},
-											signUpStyles.inputText,
-										]}
-									>
-										<Text>
-											{!isHinted && "Date of birth"}
-											{isHinted && dateOfBirth.toDateString()}
-											{"  "}
-										</Text>
-										<Icon name="calendar" color="#0459C5" size={18}></Icon>
-									</View>
-								</TouchableNativeFeedback>
-
-								{showDatePicker && (
-									<DateTimePicker
-										value={dateOfBirth}
-										mode="date"
-										display="default"
-										onChange={(event: any, selectedDate: Date | undefined) => {
-											const currentDate = selectedDate || dateOfBirth;
-											setShowDatePicker(Platform.OS === "ios");
-											if (selectedDate !== undefined) {
-												setDateOfBirth(currentDate);
-												setHinted(true);
-
-												user.dateOfBirth = currentDate.toDateString();
-												setUser(user);
-											}
-
-											// console.log(`DoB: ${user.dateOfBirth}`);
-										}}
-										// dateFormat="day month year"
-									/>
-								)}
-							</View>
-
-							<View style={{ flex: 1 }}>
-								<DropDownPicker
-									style={signUpStyles.inputText}
-									items={[
-										{ label: "Male", value: 0 },
-										{ label: "Female", value: 1 },
-										{ label: "Custom", value: 2 },
-									]}
-									defaultValue={0}
-									containerStyle={{ height: 45 }}
-									itemStyle={[
-										{
-											justifyContent: "flex-start",
-											alignItems: "center",
-										},
-									]}
-									onChangeItem={(item, index) => {
-										user.gender = item.value;
-										setUser(user);
-
-										// console.log(item);
-										// console.log(user);
-									}}
-								></DropDownPicker>
-							</View>
+									// console.log(`Pwd: ${user.password}`);
+								}}
+							/>
 						</View>
 
-						<TextInput
-							style={signUpStyles.inputText}
-							placeholder="Email"
-							keyboardType="email-address"
-							onChangeText={(text) => {
-								user.email = text;
-								setUser(user);
+						{/* Basic information */}
+						<View style={{ marginVertical: 5 }}>
+							<TextInput
+								style={signUpStyles.inputText}
+								placeholder="Full name"
+								onChangeText={(text) => {
+									user.fullname = text;
+									setUser(user);
+								}}
+							/>
 
-								// console.log(`Email: ${user.email}`);
-							}}
-						/>
-						<TextInput
-							style={signUpStyles.inputText}
-							placeholder="Phone"
-							keyboardType="phone-pad"
-							onChangeText={(text) => {
-								user.phone = text;
-								setUser(user);
+							<View style={{ flexDirection: "row" }}>
+								<View style={{ flex: 1.7 }}>
+									<TouchableNativeFeedback
+										onPress={() => {
+											setShowDatePicker(true);
+										}}
+									>
+										<View
+											style={[
+												{
+													flexDirection: "row",
+													backgroundColor: "white",
+													justifyContent: "space-between",
+													alignItems: "center",
+												},
+												signUpStyles.inputText,
+											]}
+										>
+											<Text>
+												{!isHinted && "Date of birth"}
+												{isHinted && dateOfBirth.toDateString()}
+												{"  "}
+											</Text>
+											<Icon name="calendar" color="#0459C5" size={18}></Icon>
+										</View>
+									</TouchableNativeFeedback>
 
-								// console.log(`Phone: ${user.phone}`);
-							}}
-						/>
+									{showDatePicker && (
+										<DateTimePicker
+											value={dateOfBirth}
+											mode="date"
+											display="default"
+											onChange={(
+												event: any,
+												selectedDate: Date | undefined
+											) => {
+												const currentDate = selectedDate || dateOfBirth;
+												setShowDatePicker(Platform.OS === "ios");
+												if (selectedDate !== undefined) {
+													setDateOfBirth(currentDate);
+													setHinted(true);
 
+													user.dateOfBirth = currentDate.toDateString();
+													setUser(user);
+												}
+
+												// console.log(`DoB: ${user.dateOfBirth}`);
+											}}
+											// dateFormat="day month year"
+										/>
+									)}
+								</View>
+
+								<View style={{ flex: 1 }}>
+									<DropDownPicker
+										style={signUpStyles.inputText}
+										items={[
+											{ label: "Male", value: 0 },
+											{ label: "Female", value: 1 },
+											{ label: "Custom", value: 2 },
+										]}
+										defaultValue={0}
+										containerStyle={{ height: 45 }}
+										itemStyle={[
+											{
+												justifyContent: "flex-start",
+												alignItems: "center",
+											},
+										]}
+										onChangeItem={(item, index) => {
+											user.gender = item.value;
+											setUser(user);
+
+											// console.log(item);
+											// console.log(user);
+										}}
+									></DropDownPicker>
+								</View>
+							</View>
+
+							<TextInput
+								style={signUpStyles.inputText}
+								placeholder="Email"
+								keyboardType="email-address"
+								onChangeText={(text) => {
+									user.email = text;
+									setUser(user);
+
+									// console.log(`Email: ${user.email}`);
+								}}
+							/>
+							<TextInput
+								style={signUpStyles.inputText}
+								placeholder="Phone"
+								keyboardType="phone-pad"
+								onChangeText={(text) => {
+									user.phone = text;
+									setUser(user);
+
+									// console.log(`Phone: ${user.phone}`);
+								}}
+							/>
+						</View>
+
+						{/* SignUp button */}
 						<TouchableNativeFeedback
 							onPress={() => {
 								console.log(user);
 							}}
 						>
-							<View style={signUpStyles.button}>
-								<Text style={{ fontWeight: "bold" }}>SIGN UP</Text>
+							<View style={[signUpStyles.button, { marginVertical: 15 }]}>
+								<Text
+									style={{
+										fontWeight: "bold",
+										fontSize: 16,
+										color: "#fff",
+									}}
+								>
+									SIGN UP
+								</Text>
 							</View>
 						</TouchableNativeFeedback>
 					</View>
