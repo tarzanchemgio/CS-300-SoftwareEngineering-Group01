@@ -13,6 +13,5 @@ export const styles = StyleSheet.create({
 		justifyContent: "space-around",
 		alignItems: "center",
 		paddingHorizontal: 25,
-		// backgroundColor: "green",
 	},
 });
