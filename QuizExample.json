@@ -1,0 +1,12 @@
+{
+    "question": "<string>",
+    "wrongAnswers": [
+        "A",
+        "B"
+    ],
+    "correctAnswers": [
+        "C",
+        "D"
+    ],
+    "bookMark": false
+}

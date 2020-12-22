@@ -1,0 +1,35 @@
+{
+    "topic": "T1",
+    "quizs": [
+        {
+            "question": "Q1",
+            "wrongAnswers": [
+                "A",
+                "B"
+            ],
+            "correctAnswers": [
+                "C",
+                "D"
+            ],
+            "bookMark": false,
+            "imagePath": "<string>",
+            "youtube": "<YouTube URL>"
+        },
+        {
+            "question": "Q2",
+            "wrongAnswers": [
+                "A",
+                "B"
+            ],
+            "correctAnswers": [
+                "C",
+                "D"
+            ],
+            "bookMark": false,
+            "imagePath": "<string>",
+            "youtube": "<YouTube URL>"
+        }
+    ],
+    "score": 0,
+    "icon": "./Resource/Images/topíc.ico"
+}
