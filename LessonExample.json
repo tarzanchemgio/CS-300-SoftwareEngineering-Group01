@@ -1,34 +1,102 @@
 {
-    "topic": "T1",
+    "topic": "Demand, Supply & Price",
     "quizs": [
         {
-            "question": "Q1",
+            "question": "In the study of economics, we learned that one of the more effective ways of allocating scarce resources is to use PRICE.
+                        PRICE =  A mechanism used to measure that the VALUE of a product or service.
+                        The 2 forces that determine Price of goods & services are:
+                        1.	DEMAND – The amount of good & services that consumers (people) are willing to buy
+                        2.	SUPLY – The amount of goods/services that is offered in the market place, or that is available to be bought
+                        How Demand & Supply affect Price:
+                        -	When Supply is greater than Demand, Price will FALL.
+                        -	When Demand is greater than Supply, Price will RISE.
+
+                1.	Money is ______ But Almost Everything has to do With Money. ()",
             "wrongAnswers": [
-                "A",
-                "B"
+                "A. EVERYTHINGS",
+                "B. BUDA"
             ],
             "correctAnswers": [
-                "C",
-                "D"
+                "C. not EVERYTHING"
+           
             ],
             "bookMark": false,
             "imagePath": "<string>",
             "youtube": "<YouTube URL>"
         },
         {
-            "question": "Q2",
+            "question": "2.	_______% of people above the age of 65 years old are BROKE! ()",
             "wrongAnswers": [
-                "A",
-                "B"
+                "A. 70%",
+                "B. 80%"
             ],
             "correctAnswers": [
-                "C",
-                "D"
+                "C. 90%"
+               
             ],
             "bookMark": false,
             "imagePath": "<string>",
             "youtube": "<YouTube URL>"
         }
+        {
+            "question": "3.	What is Demand?",
+            "wrongAnswers": [
+                "A. The amount of good & services",
+                "B. The amount of goods/services "
+            ],
+            "correctAnswers": [
+                "C. The amount of good & services that consumers (people) are willing to buy"
+               
+            ],
+            "bookMark": false,
+            "imagePath": "<string>",
+            "youtube": "<YouTube URL>"
+        }
+        {
+            "question": "4.	What is Supply?",
+            "wrongAnswers": [
+                "A. The amount of good & services",
+                "B. The amount of goods/services "
+            ],
+            "correctAnswers": [
+                "C. The amount of goods/services that is offered in the market place, or that is available to be bought "
+               
+            ],
+            "bookMark": false,
+            "imagePath": "<string>",
+            "youtube": "<YouTube URL>"
+        }
+
+        {
+            "question": "5.	When Supply is greater than Demand, Price will _____ ",
+            "wrongAnswers": [
+                "A. RISE"
+   
+            ],
+            "correctAnswers": [
+                "C. FALL"
+               
+            ],
+            "bookMark": false,
+            "imagePath": "<string>",
+            "youtube": "<YouTube URL>"
+        }
+         {
+            "question": "5.	5.	When Demand is greater than Supply, Price will ",
+            "wrongAnswers": [
+                "A. FALL"
+   
+            ],
+            "correctAnswers": [
+                "C. RISE"
+               
+            ],
+            "bookMark": false,
+            "imagePath": "<string>",
+            "youtube": "<YouTube URL>"
+        }
+
+    
     ],
     "score": 0,
     "icon": "./Resource/Images/topíc.ico"
