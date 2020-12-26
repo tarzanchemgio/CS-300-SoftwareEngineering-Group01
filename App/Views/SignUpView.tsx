@@ -12,6 +12,7 @@ import {
 	Keyboard,
 	TouchableHighlightComponent,
 	TouchableNativeFeedback,
+	Modal,
 } from "react-native";
 import DropDownPicker from "react-native-dropdown-picker";
 import DateTimePicker from "@react-native-community/datetimepicker";
@@ -22,11 +23,15 @@ import {
 	TouchableWithoutFeedback,
 	TouchableOpacity,
 } from "react-native";
+
 import { User } from "../Models/User";
+import { SignUpViewModel } from "../ViewModels/SignUpViewModel";
 
 const { height, width } = Dimensions.get("window");
 
 export function SignUpView({ navigation }: any) {
+	const signUpViewModel = new SignUpViewModel();
+
 	const [user, setUser] = useState(new User());
 
 	// For date of birth
@@ -48,7 +53,31 @@ export function SignUpView({ navigation }: any) {
 		// console.log(`DoB: ${user.dateOfBirth}`);
 	};
 
-	// For gender
+	const [modalVisible, setModalVisible] = useState(false);
+	const [msg, setMsg] = useState("");
+
+	const validateInput = (usr: User) => {
+		if (
+			usr.username === "" ||
+			usr.password === "" ||
+			usr.email === "" ||
+			usr.phone === ""
+		) {
+			throw "Username, password, email and phone number must not empty!";
+		}
+	};
+
+	const signUpButtonHandler = async (usr: User) => {
+		try {
+			validateInput(usr);
+			await signUpViewModel.signUpUser(usr);
+			setMsg("Sign up success");
+		} catch (exception) {
+			setMsg(exception);
+		}
+
+		setModalVisible(true);
+	};
 
 	return (
 		<TouchableWithoutFeedback
@@ -56,6 +85,18 @@ export function SignUpView({ navigation }: any) {
 			accessible={false}
 		>
 			<View style={[styles.container, { paddingVertical: height * 0.05 }]}>
+				{/* Modal view */}
+				<Modal animationType="slide" transparent={true} visible={modalVisible}>
+					<View style={signUpStyles.modalViewStyle}>
+						<Text style={{ marginBottom: 25 }}>{msg}</Text>
+						<TouchableNativeFeedback onPress={() => setModalVisible(false)}>
+							<View style={signUpStyles.button}>
+								<Text>OK</Text>
+							</View>
+						</TouchableNativeFeedback>
+					</View>
+				</Modal>
+
 				{/* Logo Group */}
 				<View style={[styles.container, styles.logo]}>
 					<Image source={require("../Resources/Images/AR.png")} />
@@ -208,6 +249,7 @@ export function SignUpView({ navigation }: any) {
 						<TouchableNativeFeedback
 							onPress={() => {
 								console.log(user);
+								signUpButtonHandler(user);
 							}}
 						>
 							<View style={[signUpStyles.button, { marginVertical: 15 }]}>
@@ -246,5 +288,22 @@ const signUpStyles = StyleSheet.create({
 		borderRadius: 10,
 		alignItems: "center",
 		justifyContent: "center",
+	},
+	modalViewStyle: {
+		flex: 0.5,
+		alignItems: "center",
+		justifyContent: "center",
+		margin: 20,
+		backgroundColor: "white",
+		borderRadius: 20,
+		padding: 35,
+		shadowColor: "#000",
+		shadowOffset: {
+			width: 1,
+			height: 2,
+		},
+		shadowOpacity: 0.25,
+		shadowRadius: 3.84,
+		elevation: 5,
 	},
 });

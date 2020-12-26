@@ -10,16 +10,18 @@ import {
 	Keyboard,
 	TouchableOpacity,
 	TouchableNativeFeedback,
+	Modal,
 } from "react-native";
 // import {Button} from "React-bootstrap/Button"
 import { styles } from "../Shares/styles";
 import React, { useState } from "react";
 import { useNavigation } from "@react-navigation/native";
 import { SafeAreaView } from "react-native-safe-area-context";
-import { LoginViewModel } from "../ViewModels/LoginViewModel";
 import { StackScreenProps } from "@react-navigation/stack";
-import { User } from "../Models/User";
 import { color } from "react-native-reanimated";
+
+import { User } from "../Models/User";
+import { LoginViewModel } from "../ViewModels/LoginViewModel";
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Import Bootstrap and its default variables
@@ -27,8 +29,24 @@ import { color } from "react-native-reanimated";
 
 export function LoginView({ navigation }: any) {
 	const loginViewModel = new LoginViewModel();
-	const [user, setUser] = useState(new User());
+
+	const [username, setUsername] = useState("");
+	const [password, setPassword] = useState("");
+
 	const { height, width } = Dimensions.get("window");
+
+	const [modalVisible, setModalVisible] = useState(false);
+	const [msg, setMsg] = useState("");
+
+	const loginButtonHandler = async (username: string, pass: string) => {
+		let usr = await loginViewModel.login(username, pass);
+		if (usr === null) {
+			setMsg("Invalid username or password!");
+			setModalVisible(true);
+		} else {
+			navigation.navigate("InnerView", { user: usr });
+		}
+	};
 
 	// const navigation = useNavigation();
 	return (
@@ -37,6 +55,18 @@ export function LoginView({ navigation }: any) {
 			accessible={false}
 		>
 			<View style={[styles.container, { justifyContent: "flex-start" }]}>
+				{/* Modal view */}
+				<Modal animationType="slide" transparent={true} visible={modalVisible}>
+					<View style={loginStyle.modalViewStyle}>
+						<Text style={{ marginBottom: 25 }}>{msg}</Text>
+						<TouchableNativeFeedback onPress={() => setModalVisible(false)}>
+							<View style={loginStyle.button}>
+								<Text>OK</Text>
+							</View>
+						</TouchableNativeFeedback>
+					</View>
+				</Modal>
+
 				<View
 					style={[
 						{
@@ -69,18 +99,15 @@ export function LoginView({ navigation }: any) {
 						style={[loginStyle.textBox, { width: width * 0.8 }]}
 						placeholder="Username"
 						onChangeText={(text) => {
-							let user = new User();
-							user.username = text;
-							setUser(user);
+							setUsername(text);
 						}}
 					/>
 					<TextInput
 						style={[loginStyle.textBox, { width: width * 0.8 }]}
 						placeholder="Password"
+						secureTextEntry={true}
 						onChangeText={(text) => {
-							let user = new User();
-							user.username = text;
-							setUser(user);
+							setPassword(text);
 						}}
 					/>
 
@@ -101,7 +128,7 @@ export function LoginView({ navigation }: any) {
 				{/* Login */}
 				<TouchableNativeFeedback
 					onPress={() => {
-						navigation.navigate("InnerView");
+						loginButtonHandler(username, password);
 					}}
 				>
 					<View
@@ -153,6 +180,32 @@ const loginStyle = StyleSheet.create({
 		backgroundColor: "white",
 		borderRadius: 10,
 		margin: 5,
+	},
+	modalViewStyle: {
+		flex: 0.5,
+		alignItems: "center",
+		justifyContent: "center",
+		margin: 20,
+		backgroundColor: "white",
+		borderRadius: 20,
+		padding: 35,
+		shadowColor: "#000",
+		shadowOffset: {
+			width: 1,
+			height: 2,
+		},
+		shadowOpacity: 0.25,
+		shadowRadius: 3.84,
+		elevation: 5,
+	},
+	button: {
+		alignSelf: "stretch",
+		padding: 10,
+		backgroundColor: "#F2B824",
+		margin: 3,
+		borderRadius: 10,
+		alignItems: "center",
+		justifyContent: "center",
 	},
 });
 
