@@ -11,7 +11,7 @@
                         -	When Supply is greater than Demand, Price will FALL.
                         -	When Demand is greater than Supply, Price will RISE.
 
-                1.	Money is ______ But Almost Everything has to do With Money. ()",
+                1.	Money is ______ But Almost Everything has to do With Money.",
             "wrongAnswers": [
                 "A. EVERYTHINGS",
                 "B. BUDA"
@@ -25,7 +25,7 @@
             "youtube": "<YouTube URL>"
         },
         {
-            "question": "2.	_______% of people above the age of 65 years old are BROKE! ()",
+            "question": "2.	_______% of people above the age of 65 years old are BROKE!",
             "wrongAnswers": [
                 "A. 70%",
                 "B. 80%"
@@ -37,7 +37,7 @@
             "bookMark": false,
             "imagePath": "<string>",
             "youtube": "<YouTube URL>"
-        }
+        },
         {
             "question": "3.	What is Demand?",
             "wrongAnswers": [
@@ -51,7 +51,7 @@
             "bookMark": false,
             "imagePath": "<string>",
             "youtube": "<YouTube URL>"
-        }
+        },
         {
             "question": "4.	What is Supply?",
             "wrongAnswers": [
@@ -65,7 +65,7 @@
             "bookMark": false,
             "imagePath": "<string>",
             "youtube": "<YouTube URL>"
-        }
+        },
 
         {
             "question": "5.	When Supply is greater than Demand, Price will _____ ",
@@ -80,9 +80,9 @@
             "bookMark": false,
             "imagePath": "<string>",
             "youtube": "<YouTube URL>"
-        }
-         {
-            "question": "5.	5.	When Demand is greater than Supply, Price will ",
+        },
+        {
+            "question": "5. When Demand is greater than Supply, Price will",
             "wrongAnswers": [
                 "A. FALL"
    
