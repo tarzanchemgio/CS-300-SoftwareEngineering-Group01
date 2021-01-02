@@ -16,7 +16,7 @@ import {
 } from "react-native";
 import DropDownPicker from "react-native-dropdown-picker";
 import DateTimePicker from "@react-native-community/datetimepicker";
-import Icon from "react-native-vector-icons/FontAwesome";
+import Icon from "react-native-vector-icons/FontAwesome5";
 import { Platform } from "react-native";
 import {
 	GestureResponderEvent,
@@ -53,7 +53,6 @@ export function SignUpView({ navigation }: any) {
 		// console.log(`DoB: ${user.dateOfBirth}`);
 	};
 
-	const [modalVisible, setModalVisible] = useState(false);
 	const [msg, setMsg] = useState("");
 
 	const validateInput = (usr: User) => {
@@ -71,12 +70,10 @@ export function SignUpView({ navigation }: any) {
 		try {
 			validateInput(usr);
 			await signUpViewModel.signUpUser(usr);
-			setMsg("Sign up success");
 		} catch (exception) {
 			setMsg(exception);
+			setTimeout(() => setMsg(""), 3000);
 		}
-
-		setModalVisible(true);
 	};
 
 	return (
@@ -84,27 +81,26 @@ export function SignUpView({ navigation }: any) {
 			onPress={() => Keyboard.dismiss()}
 			accessible={false}
 		>
-			<View style={[styles.container, { paddingVertical: height * 0.05 }]}>
-				{/* Modal view */}
-				<Modal animationType="slide" transparent={true} visible={modalVisible}>
-					<View style={signUpStyles.modalViewStyle}>
-						<Text style={{ marginBottom: 25 }}>{msg}</Text>
-						<TouchableNativeFeedback onPress={() => setModalVisible(false)}>
-							<View style={signUpStyles.button}>
-								<Text>OK</Text>
-							</View>
-						</TouchableNativeFeedback>
-					</View>
-				</Modal>
-
+			<View
+				style={[
+					styles.container,
+					{ paddingVertical: height * 0.05, backgroundColor: "#0459C5" },
+				]}
+			>
 				{/* Logo Group */}
-				<View style={[styles.container, styles.logo]}>
+				<View
+					style={[
+						styles.container,
+						styles.logo,
+						{ backgroundColor: "#0459C5" },
+					]}
+				>
 					<Image source={require("../Resources/Images/AR.png")} />
 					<Image source={require("../Resources/Images/money-tree.png")} />
 				</View>
 
 				<View>
-					<View style={{ width: width * 0.8 }}>
+					<View style={{ width: width * 0.9 }}>
 						{/* Username & Password Group */}
 						<View style={{ marginVertical: 5 }}>
 							<TextInput
@@ -164,7 +160,11 @@ export function SignUpView({ navigation }: any) {
 												{isHinted && dateOfBirth.toDateString()}
 												{"  "}
 											</Text>
-											<Icon name="calendar" color="#0459C5" size={18}></Icon>
+											<Icon
+												name="calendar-week"
+												color="#0459C5"
+												size={18}
+											></Icon>
 										</View>
 									</TouchableNativeFeedback>
 
@@ -243,6 +243,7 @@ export function SignUpView({ navigation }: any) {
 									// console.log(`Phone: ${user.phone}`);
 								}}
 							/>
+							<Text style={signUpStyles.warningText}>{msg}</Text>
 						</View>
 
 						{/* SignUp button */}
@@ -305,5 +306,10 @@ const signUpStyles = StyleSheet.create({
 		shadowOpacity: 0.25,
 		shadowRadius: 3.84,
 		elevation: 5,
+	},
+	warningText: {
+		color: "red",
+		marginHorizontal: 10,
+		fontSize: 10,
 	},
 });

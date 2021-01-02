@@ -13,15 +13,16 @@ import {
 	Modal,
 } from "react-native";
 // import {Button} from "React-bootstrap/Button"
-import { styles } from "../Shares/styles";
 import React, { useState } from "react";
 import { useNavigation } from "@react-navigation/native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { StackScreenProps } from "@react-navigation/stack";
 import { color } from "react-native-reanimated";
 
+import { styles } from "../Shares/styles";
 import { User } from "../Models/User";
 import { LoginViewModel } from "../ViewModels/LoginViewModel";
+
 // import 'bootstrap/dist/css/bootstrap.min.css';
 
 // Import Bootstrap and its default variables
@@ -35,14 +36,17 @@ export function LoginView({ navigation }: any) {
 
 	const { height, width } = Dimensions.get("window");
 
-	const [modalVisible, setModalVisible] = useState(false);
 	const [msg, setMsg] = useState("");
 
 	const loginButtonHandler = async (username: string, pass: string) => {
 		let usr = await loginViewModel.login(username, pass);
+		console.log(`User recceived: ${JSON.stringify(usr, null, 4)}`);
 		if (usr === null) {
 			setMsg("Invalid username or password!");
-			setModalVisible(true);
+			setTimeout(() => {
+				setMsg("");
+			}, 3000);
+			// setModalVisible(true);
 		} else {
 			navigation.navigate("InnerView", { user: usr });
 		}
@@ -54,19 +58,12 @@ export function LoginView({ navigation }: any) {
 			onPress={() => Keyboard.dismiss()}
 			accessible={false}
 		>
-			<View style={[styles.container, { justifyContent: "flex-start" }]}>
-				{/* Modal view */}
-				<Modal animationType="slide" transparent={true} visible={modalVisible}>
-					<View style={loginStyle.modalViewStyle}>
-						<Text style={{ marginBottom: 25 }}>{msg}</Text>
-						<TouchableNativeFeedback onPress={() => setModalVisible(false)}>
-							<View style={loginStyle.button}>
-								<Text>OK</Text>
-							</View>
-						</TouchableNativeFeedback>
-					</View>
-				</Modal>
-
+			<View
+				style={[
+					styles.container,
+					{ justifyContent: "flex-start", backgroundColor: "#0459C5" },
+				]}
+			>
 				<View
 					style={[
 						{
@@ -110,6 +107,8 @@ export function LoginView({ navigation }: any) {
 							setPassword(text);
 						}}
 					/>
+					{/* Warning text */}
+					<Text style={loginStyle.warningText}>{msg}</Text>
 
 					{/* Forgot password */}
 					<TouchableNativeFeedback
@@ -206,6 +205,11 @@ const loginStyle = StyleSheet.create({
 		borderRadius: 10,
 		alignItems: "center",
 		justifyContent: "center",
+	},
+	warningText: {
+		color: "red",
+		marginLeft: 10,
+		fontSize: 10,
 	},
 });
 

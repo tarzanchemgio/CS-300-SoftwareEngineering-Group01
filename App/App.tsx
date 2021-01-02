@@ -18,6 +18,7 @@ import {
 	useIsDrawerOpen,
 } from "@react-navigation/drawer";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
+import Icon from "react-native-vector-icons/FontAwesome5";
 
 import { styles } from "./Shares/styles";
 import { LoginView } from "./Views/LoginView";
@@ -42,11 +43,31 @@ function OuterView() {
 
 function InnerView() {
 	return (
-		<Tab.Navigator>
-			<Tab.Screen name="TransactionsView" component={TransactionsView} />
-			<Tab.Screen name="ReportView" component={ReportView} />
-			<Tab.Screen name="LearnView" component={LearnView} />
-			<Tab.Screen name="AccountView" component={AccountView} />
+		<Tab.Navigator
+			screenOptions={({ route }) => ({
+				tabBarIcon: ({ focused, color, size }) => {
+					let iconName: string = "";
+					if (route.name === "Transactions") {
+						iconName = "ticket-alt";
+					} else if (route.name === "Report") {
+						iconName = "chart-pie";
+					} else if (route.name === "Learn") {
+						iconName = "book";
+					} else if (route.name === "Account") {
+						iconName = "user-circle";
+					}
+
+					color = focused ? "#0459C5" : "gray";
+
+					return <Icon name={iconName} color={color} size={20}></Icon>;
+				},
+			})}
+			initialRouteName="Transactions"
+		>
+			<Tab.Screen name="Transactions" component={TransactionsView} />
+			<Tab.Screen name="Report" component={ReportView} />
+			<Tab.Screen name="Learn" component={LearnView} />
+			<Tab.Screen name="Account" component={AccountView} />
 		</Tab.Navigator>
 	);
 }
