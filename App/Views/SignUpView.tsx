@@ -55,6 +55,9 @@ export function SignUpView({ navigation }: any) {
 
 	const [msg, setMsg] = useState("");
 
+	const [modalVisible, setModalVisible] = useState(false);
+	const [modalText, setModalText] = useState("");
+
 	const validateInput = (usr: User) => {
 		if (
 			usr.username === "" ||
@@ -69,7 +72,11 @@ export function SignUpView({ navigation }: any) {
 	const signUpButtonHandler = async (usr: User) => {
 		try {
 			validateInput(usr);
-			await signUpViewModel.signUpUser(usr);
+			let isSuccess = await signUpViewModel.signUpUser(usr);
+			if (isSuccess) {
+				setModalVisible(true);
+				setModalText("Sign up successfully");
+			}
 		} catch (exception) {
 			setMsg(exception);
 			setTimeout(() => setMsg(""), 3000);
@@ -87,6 +94,30 @@ export function SignUpView({ navigation }: any) {
 					{ paddingVertical: height * 0.05, backgroundColor: "#0459C5" },
 				]}
 			>
+				<Modal animationType="slide" transparent={true} visible={modalVisible}>
+					<View style={[styles.container]}>
+						<View style={signUpStyles.modalViewStyle}>
+							<Text
+								style={{
+									marginBottom: 15,
+									textAlign: "center",
+									fontSize: 20,
+								}}
+							>
+								{modalText}
+							</Text>
+							<TouchableNativeFeedback
+								onPress={() => {
+									setModalVisible(false);
+								}}
+							>
+								<Text style={[signUpStyles.button, { textAlign: "center" }]}>
+									OK
+								</Text>
+							</TouchableNativeFeedback>
+						</View>
+					</View>
+				</Modal>
 				{/* Logo Group */}
 				<View
 					style={[

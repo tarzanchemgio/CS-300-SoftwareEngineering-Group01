@@ -11,7 +11,11 @@ LogBox.ignoreAllLogs();
 import { StatusBar } from "expo-status-bar";
 import React, { useState } from "react";
 import { Button, StyleSheet, Text, View } from "react-native";
-import { NavigationContainer, useNavigation } from "@react-navigation/native";
+import {
+	NavigationContainer,
+	useNavigation,
+	useRoute,
+} from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
 import {
 	createDrawerNavigator,
@@ -41,7 +45,9 @@ function OuterView() {
 	);
 }
 
-function InnerView() {
+function InnerView({ navigation, route }: any) {
+	// console.log(`params: ${JSON.stringify(route.params, null, 4)}`);
+
 	return (
 		<Tab.Navigator
 			screenOptions={({ route }) => ({
@@ -67,7 +73,11 @@ function InnerView() {
 			<Tab.Screen name="Transactions" component={TransactionsView} />
 			<Tab.Screen name="Report" component={ReportView} />
 			<Tab.Screen name="Learn" component={LearnView} />
-			<Tab.Screen name="Account" component={AccountView} />
+			<Tab.Screen
+				name="Account"
+				component={AccountView}
+				initialParams={{ user: route.params.user }}
+			/>
 		</Tab.Navigator>
 	);
 }

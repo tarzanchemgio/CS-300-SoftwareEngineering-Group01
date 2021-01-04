@@ -2,16 +2,7 @@
     "topic": "Demand, Supply & Price",
     "quizs": [
         {
-            "question": "In the study of economics, we learned that one of the more effective ways of allocating scarce resources is to use PRICE.
-                        PRICE =  A mechanism used to measure that the VALUE of a product or service.
-                        The 2 forces that determine Price of goods & services are:
-                        1. DEMAND – The amount of good & services that consumers (people) are willing to buy
-                        2. SUPLY – The amount of goods/services that is offered in the market place, or that is available to be bought
-                        How Demand & Supply affect Price:
-                        -	When Supply is greater than Demand, Price will FALL.
-                        -	When Demand is greater than Supply, Price will RISE.
-
-                1.	Money is ______ But Almost Everything has to do With Money.",
+            "question": "1. In the study of economics, we learned that one of the more effective ways of allocating scarce resources is to use PRICE\nPRICE = A mechanism used to measure that the VALUE of a product or service.\nThe 2 forces that determine Price of goods & services are:\n1. DEMAND – The amount of good & services that consumers (people) are willing to buy\n2. SUPLY – The amount of goods/services that is offered in the market place, or that is available to be bought\nHow Demand & Supply affect Price:\n-  When Supply is greater than Demand, Price will FALL.\n-  When Demand is greater than Supply, Price will RISE.\n\n1. Money is ______ But Almost Everything has to do With Money.",
             "wrongAnswers": [
                 "A. EVERYTHINGS",
                 "B. BUDA"
@@ -75,7 +66,7 @@
             "youtube": "<YouTube URL>"
         },
         {
-            "question": "5. When Demand is greater than Supply, Price will",
+            "question": "6. When Demand is greater than Supply, Price will",
             "wrongAnswers": [
                 "A. FALL"
             ],
@@ -88,5 +79,5 @@
         }
     ],
     "score": 0,
-    "icon": "./Resource/Images/topíc.ico"
+    "icon": "Resource/Images/Demand, Supply & Price.png"
 }

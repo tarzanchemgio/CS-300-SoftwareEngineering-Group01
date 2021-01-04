@@ -10,21 +10,22 @@ export class SignUpViewModel {
 	async signUpUser(user: User): Promise<boolean> {
 		try {
 			let dirPath = FileSystem.documentDirectory + "/users/";
-			console.log(`path: ${dirPath}`);
+			// console.log(`path: ${dirPath}`);
 
 			// For test
-			FileSystem.deleteAsync(dirPath, { idempotent: true }).then(() => {
-				console.log(`Delete: ${dirPath}`);
-			});
+			// FileSystem.deleteAsync(dirPath, { idempotent: true }).then(() => {
+			// 	console.log(`Delete: ${dirPath}`);
+			// });
 
 			let dirInfo = await FileSystem.getInfoAsync(dirPath);
-			console.log(`path info: ${JSON.stringify(dirInfo, null, 2)}`);
+			// console.log(`path info: ${JSON.stringify(dirInfo, null, 2)}`);
+
 			if (!dirInfo.exists) {
 				await FileSystem.makeDirectoryAsync(dirPath);
 			}
 
 			let items = await FileSystem.readDirectoryAsync(dirPath);
-			console.log(`items: ${JSON.stringify(items, null, 2)}`);
+			// console.log(`items: ${JSON.stringify(items, null, 2)}`);
 
 			let userJson = (await items).find((val, idx) => {
 				if (val === user.username + ".json") {
@@ -44,7 +45,7 @@ export class SignUpViewModel {
 					user.password
 				);
 
-				console.log(`Writing to ${userJson}: ${JSON.stringify(user, null, 2)}`);
+				// console.log(`Writing to ${userJson}: ${JSON.stringify(user, null, 2)}`);
 
 				await FileSystem.writeAsStringAsync(
 					`${userJson}`,
