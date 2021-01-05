@@ -4,11 +4,11 @@
         {
             "question": "1. In the study of economics, we learned that one of the more effective ways of allocating scarce resources is to use PRICE\nPRICE = A mechanism used to measure that the VALUE of a product or service.\nThe 2 forces that determine Price of goods & services are:\n1. DEMAND – The amount of good & services that consumers (people) are willing to buy\n2. SUPLY – The amount of goods/services that is offered in the market place, or that is available to be bought\nHow Demand & Supply affect Price:\n-  When Supply is greater than Demand, Price will FALL.\n-  When Demand is greater than Supply, Price will RISE.\n\n1. Money is ______ But Almost Everything has to do With Money.",
             "wrongAnswers": [
-                "A. EVERYTHINGS",
-                "B. BUDA"
+                "EVERYTHINGS",
+                "BUDA"
             ],
             "correctAnswers": [
-                "C. not EVERYTHING"
+                "not EVERYTHING"
             ],
             "bookMark": false,
             "imagePath": "<string>",
@@ -17,11 +17,11 @@
         {
             "question": "2. _______% of people above the age of 65 years old are BROKE!",
             "wrongAnswers": [
-                "A. 70%",
-                "B. 80%"
+                "70%",
+                "80%"
             ],
             "correctAnswers": [
-                "C. 90%"
+                "90%"
             ],
             "bookMark": false,
             "imagePath": "<string>",
@@ -30,11 +30,11 @@
         {
             "question": "3. What is Demand?",
             "wrongAnswers": [
-                "A. The amount of good & services",
-                "B. The amount of goods/services "
+                "The amount of good & services",
+                "The amount of goods/services "
             ],
             "correctAnswers": [
-                "C. The amount of good & services that consumers (people) are willing to buy"
+                "The amount of good & services that consumers (people) are willing to buy"
             ],
             "bookMark": false,
             "imagePath": "<string>",
@@ -43,11 +43,11 @@
         {
             "question": "4. What is Supply?",
             "wrongAnswers": [
-                "A. The amount of good & services",
-                "B. The amount of goods/services "
+                "The amount of good & services",
+                "The amount of goods/services "
             ],
             "correctAnswers": [
-                "C. The amount of goods/services that is offered in the market place, or that is available to be bought "
+                "The amount of goods/services that is offered in the market place, or that is available to be bought "
             ],
             "bookMark": false,
             "imagePath": "<string>",
@@ -56,10 +56,10 @@
         {
             "question": "5. When Supply is greater than Demand, Price will _____ ",
             "wrongAnswers": [
-                "A. RISE"
+                "RISE"
             ],
             "correctAnswers": [
-                "C. FALL"
+                "FALL"
             ],
             "bookMark": false,
             "imagePath": "<string>",
@@ -68,10 +68,10 @@
         {
             "question": "6. When Demand is greater than Supply, Price will",
             "wrongAnswers": [
-                "A. FALL"
+                "FALL"
             ],
             "correctAnswers": [
-                "C. RISE"
+                "RISE"
             ],
             "bookMark": false,
             "imagePath": "<string>",
