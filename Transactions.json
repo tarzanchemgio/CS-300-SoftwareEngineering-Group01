@@ -1,0 +1,22 @@
+[
+    {
+        "cost": 100000,
+        "date": "2021-01-30",
+        "note": "Trả nợ sinh viên :))",
+        "emotion": 0,
+        "category": {
+            "name": "Debt",
+            "icon": "link to an icon"
+        }
+    },
+    {
+        "cost": 100000,
+        "date": "2021-01-30",
+        "note": "Trả nợ sinh viên :))",
+        "emotion": 0,
+        "category": {
+            "name": "Debt",
+            "icon": "link to an icon"
+        }
+    }
+]

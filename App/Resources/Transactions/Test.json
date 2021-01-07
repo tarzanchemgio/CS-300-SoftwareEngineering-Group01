@@ -1,0 +1,72 @@
+[
+    {
+        "cost": 339000,
+        "date": "2021-01-21",
+        "note": "Pharmacy",
+        "emotion": 0,
+        "category": {
+            "name": "Health&Fitness",
+            "icon": ""
+        }
+    },
+    {
+        "cost": 426000,
+        "date": "2020-12-21",
+        "note": "Grab bike",
+        "emotion": 1,
+        "category": {
+            "name": "Transportation",
+            "icon": ""
+        }
+    },
+    {
+        "cost": 327000,
+        "date": "2021-01-07",
+        "note": "Marriage",
+        "emotion": 3,
+        "category": {
+            "name": "Gifts & Donation",
+            "icon": ""
+        }
+    },
+    {
+        "cost": 315000,
+        "date": "2020-11-16",
+        "note": "Doctor",
+        "emotion": 2,
+        "category": {
+            "name": "Health&Fitness",
+            "icon": ""
+        }
+    },
+    {
+        "cost": 366000,
+        "date": "2020-12-02",
+        "note": "Electronics",
+        "emotion": 0,
+        "category": {
+            "name": "Shopping",
+            "icon": ""
+        }
+    },
+    {
+        "cost": 376000,
+        "date": "2020-11-16",
+        "note": "Water",
+        "emotion": 1,
+        "category": {
+            "name": "Bill & Utilities",
+            "icon": ""
+        }
+    },
+    {
+        "cost": 257000,
+        "date": "2020-12-23",
+        "note": "Game",
+        "emotion": 1,
+        "category": {
+            "name": "Entertainment",
+            "icon": ""
+        }
+    }
+]

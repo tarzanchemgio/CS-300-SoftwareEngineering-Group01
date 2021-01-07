@@ -139,22 +139,22 @@ const QuestionModal = ({ navigation, route }: any) => {
 									onPress={() => {
 										if (selectedAnwsers.length === quiz.correctAnswers.length) {
 											quiz.correctAnswers.sort();
-											console.log(
-												`quiz.correctAnswers: ${JSON.stringify(
-													quiz.correctAnswers,
-													null,
-													4
-												)}`
-											);
+											// console.log(
+											// 	`quiz.correctAnswers: ${JSON.stringify(
+											// 		quiz.correctAnswers,
+											// 		null,
+											// 		4
+											// 	)}`
+											// );
 
 											selectedAnwsers.sort();
-											console.log(
-												`selectedAnwsers${JSON.stringify(
-													selectedAnwsers,
-													null,
-													4
-												)}`
-											);
+											// console.log(
+											// 	`selectedAnwsers${JSON.stringify(
+											// 		selectedAnwsers,
+											// 		null,
+											// 		4
+											// 	)}`
+											// );
 
 											let corrects = 0;
 											for (let i = 0; i < selectedAnwsers.length; i++) {
