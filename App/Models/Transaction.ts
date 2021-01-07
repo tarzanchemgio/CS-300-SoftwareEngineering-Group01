@@ -10,7 +10,7 @@ enum Emotion {
 class Transaction {
 	category: Category = new Category();
 	cost: number = 0;
-	date: Date = new Date("2000-00-00");
+	date: string = "2000-01-01";
 
 	note?: string;
 	emotion?: Emotion;
