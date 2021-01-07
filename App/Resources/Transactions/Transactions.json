@@ -1,0 +1,4492 @@
+[
+  {
+    "cost": 400000,
+    "date": "2020-11-10",
+    "note": "Accessories",
+    "emotion": 1,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 448000,
+    "date": "2021-01-09",
+    "note": "Pharmacy",
+    "emotion": 0,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 390000,
+    "date": "2020-12-17",
+    "note": "Water",
+    "emotion": 0,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 318000,
+    "date": "2020-11-29",
+    "note": "Phone",
+    "emotion": 1,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 25000,
+    "date": "2021-01-10",
+    "note": "Footwear",
+    "emotion": 3,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 341000,
+    "date": "2021-01-12",
+    "note": "Doctor",
+    "emotion": 0,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 132000,
+    "date": "2020-12-26",
+    "note": "Stock",
+    "emotion": 2,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 118000,
+    "date": "2020-12-21",
+    "note": "Petrol",
+    "emotion": 2,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 98000,
+    "date": "2021-01-18",
+    "note": "Marriage",
+    "emotion": 0,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 56000,
+    "date": "2021-01-26",
+    "note": "Water",
+    "emotion": 2,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 157000,
+    "date": "2021-01-01",
+    "note": "Dinner",
+    "emotion": 0,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 131000,
+    "date": "2020-12-18",
+    "note": "Electricity",
+    "emotion": 2,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 130000,
+    "date": "2020-12-22",
+    "note": "Movie",
+    "emotion": 1,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 131000,
+    "date": "2020-12-11",
+    "note": "Marriage",
+    "emotion": 3,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 431000,
+    "date": "2020-12-12",
+    "note": "Petrol",
+    "emotion": 2,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 367000,
+    "date": "2021-01-10",
+    "note": "Electricity",
+    "emotion": 0,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 271000,
+    "date": "2021-01-04",
+    "note": "Cafe",
+    "emotion": 1,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 137000,
+    "date": "2020-12-09",
+    "note": "Marriage",
+    "emotion": 1,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 203000,
+    "date": "2021-01-30",
+    "note": "Charity",
+    "emotion": 3,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 487000,
+    "date": "2020-12-27",
+    "note": "Real Estate",
+    "emotion": 0,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 66000,
+    "date": "2021-01-08",
+    "note": "Movie",
+    "emotion": 1,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 403000,
+    "date": "2020-12-17",
+    "note": "Game",
+    "emotion": 3,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 181000,
+    "date": "2020-11-08",
+    "note": "Electricity",
+    "emotion": 1,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 74000,
+    "date": "2020-11-11",
+    "note": "Clothing",
+    "emotion": 0,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 39000,
+    "date": "2021-01-30",
+    "note": "Bus",
+    "emotion": 0,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 93000,
+    "date": "2021-01-26",
+    "note": "Petrol",
+    "emotion": 3,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 339000,
+    "date": "2021-01-21",
+    "note": "Pharmacy",
+    "emotion": 0,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 426000,
+    "date": "2020-12-21",
+    "note": "Grab bike",
+    "emotion": 1,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 327000,
+    "date": "2021-01-07",
+    "note": "Marriage",
+    "emotion": 3,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 315000,
+    "date": "2020-11-16",
+    "note": "Doctor",
+    "emotion": 2,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 366000,
+    "date": "2020-12-02",
+    "note": "Electronics",
+    "emotion": 0,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 376000,
+    "date": "2020-11-16",
+    "note": "Water",
+    "emotion": 1,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 257000,
+    "date": "2020-12-23",
+    "note": "Game",
+    "emotion": 1,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 26000,
+    "date": "2020-11-24",
+    "note": "Accessories",
+    "emotion": 2,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 113000,
+    "date": "2021-01-18",
+    "note": "Dinner",
+    "emotion": 0,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 167000,
+    "date": "2021-01-26",
+    "note": "Game",
+    "emotion": 2,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 334000,
+    "date": "2021-01-12",
+    "note": "Internet",
+    "emotion": 1,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 473000,
+    "date": "2021-01-22",
+    "note": "Breakfast",
+    "emotion": 0,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 477000,
+    "date": "2021-01-12",
+    "note": "Sport",
+    "emotion": 1,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 442000,
+    "date": "2021-01-03",
+    "note": "Pharmacy",
+    "emotion": 2,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 388000,
+    "date": "2020-11-27",
+    "note": "Grab bike",
+    "emotion": 0,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 254000,
+    "date": "2020-11-16",
+    "note": "Game",
+    "emotion": 3,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 471000,
+    "date": "2020-12-07",
+    "note": "Sport",
+    "emotion": 3,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 49000,
+    "date": "2020-11-21",
+    "note": "Pharmacy",
+    "emotion": 1,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 150000,
+    "date": "2020-11-14",
+    "note": "Movie",
+    "emotion": 0,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 450000,
+    "date": "2021-01-22",
+    "note": "Phone",
+    "emotion": 1,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 495000,
+    "date": "2020-12-13",
+    "note": "Accessories",
+    "emotion": 0,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 49000,
+    "date": "2020-12-18",
+    "note": "Marriage",
+    "emotion": 1,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 70000,
+    "date": "2020-11-02",
+    "note": "Petrol",
+    "emotion": 0,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 218000,
+    "date": "2021-01-19",
+    "note": "Movie",
+    "emotion": 3,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 222000,
+    "date": "2020-12-15",
+    "note": "Funeral",
+    "emotion": 1,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 438000,
+    "date": "2020-12-30",
+    "note": "Movie",
+    "emotion": 3,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 68000,
+    "date": "2021-01-02",
+    "note": "Marriage",
+    "emotion": 2,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 372000,
+    "date": "2021-01-14",
+    "note": "Electronics",
+    "emotion": 1,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 117000,
+    "date": "2020-11-21",
+    "note": "Charity",
+    "emotion": 0,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 98000,
+    "date": "2021-01-11",
+    "note": "Game",
+    "emotion": 2,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 216000,
+    "date": "2020-11-29",
+    "note": "Footwear",
+    "emotion": 3,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 385000,
+    "date": "2020-12-04",
+    "note": "Clothing",
+    "emotion": 1,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 328000,
+    "date": "2021-01-20",
+    "note": "Bus",
+    "emotion": 3,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 72000,
+    "date": "2020-11-12",
+    "note": "Marriage",
+    "emotion": 3,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 359000,
+    "date": "2021-01-24",
+    "note": "Petrol",
+    "emotion": 0,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 405000,
+    "date": "2020-12-20",
+    "note": "Water",
+    "emotion": 2,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 276000,
+    "date": "2020-12-25",
+    "note": "Accessories",
+    "emotion": 0,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 68000,
+    "date": "2020-12-05",
+    "note": "Clothing",
+    "emotion": 3,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 432000,
+    "date": "2021-01-20",
+    "note": "Movie",
+    "emotion": 0,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 111000,
+    "date": "2021-01-20",
+    "note": "Marriage",
+    "emotion": 3,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 287000,
+    "date": "2020-12-15",
+    "note": "Bus",
+    "emotion": 3,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 244000,
+    "date": "2020-12-23",
+    "note": "Charity",
+    "emotion": 3,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 370000,
+    "date": "2020-11-12",
+    "note": "Marriage",
+    "emotion": 0,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 189000,
+    "date": "2020-12-26",
+    "note": "Footwear",
+    "emotion": 3,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 384000,
+    "date": "2020-11-03",
+    "note": "Phone",
+    "emotion": 2,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 329000,
+    "date": "2020-11-26",
+    "note": "Water",
+    "emotion": 1,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 153000,
+    "date": "2021-01-23",
+    "note": "Charity",
+    "emotion": 2,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 380000,
+    "date": "2021-01-30",
+    "note": "Petrol",
+    "emotion": 1,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 102000,
+    "date": "2020-12-15",
+    "note": "Real Estate",
+    "emotion": 2,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 477000,
+    "date": "2021-01-15",
+    "note": "Pharmacy",
+    "emotion": 1,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 342000,
+    "date": "2020-12-29",
+    "note": "Internet",
+    "emotion": 0,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 217000,
+    "date": "2020-12-07",
+    "note": "Charity",
+    "emotion": 0,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 125000,
+    "date": "2021-01-27",
+    "note": "Marriage",
+    "emotion": 1,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 230000,
+    "date": "2021-01-04",
+    "note": "Movie",
+    "emotion": 1,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 374000,
+    "date": "2020-11-22",
+    "note": "Clothing",
+    "emotion": 2,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 443000,
+    "date": "2021-01-04",
+    "note": "Sport",
+    "emotion": 2,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 480000,
+    "date": "2021-01-12",
+    "note": "Breakfast",
+    "emotion": 3,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 392000,
+    "date": "2020-11-12",
+    "note": "Electronics",
+    "emotion": 3,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 162000,
+    "date": "2020-12-25",
+    "note": "Stock",
+    "emotion": 1,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 347000,
+    "date": "2020-12-14",
+    "note": "Parking Fees",
+    "emotion": 1,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 230000,
+    "date": "2020-12-19",
+    "note": "Game",
+    "emotion": 1,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 181000,
+    "date": "2020-12-14",
+    "note": "Internet",
+    "emotion": 3,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 231000,
+    "date": "2021-01-01",
+    "note": "Breakfast",
+    "emotion": 3,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 453000,
+    "date": "2020-11-15",
+    "note": "Breakfast",
+    "emotion": 3,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 89000,
+    "date": "2020-12-15",
+    "note": "Cafe",
+    "emotion": 1,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 120000,
+    "date": "2020-11-05",
+    "note": "Bus",
+    "emotion": 1,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 465000,
+    "date": "2020-11-19",
+    "note": "Lunch",
+    "emotion": 0,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 93000,
+    "date": "2021-01-13",
+    "note": "Water",
+    "emotion": 1,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 269000,
+    "date": "2020-11-14",
+    "note": "Internet",
+    "emotion": 1,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 330000,
+    "date": "2020-12-02",
+    "note": "Internet",
+    "emotion": 3,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 56000,
+    "date": "2020-12-31",
+    "note": "Dinner",
+    "emotion": 2,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 76000,
+    "date": "2020-12-31",
+    "note": "Sport",
+    "emotion": 2,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 487000,
+    "date": "2020-12-09",
+    "note": "Real Estate",
+    "emotion": 1,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 297000,
+    "date": "2020-12-19",
+    "note": "Dinner",
+    "emotion": 3,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 76000,
+    "date": "2020-11-25",
+    "note": "Electricity",
+    "emotion": 1,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 462000,
+    "date": "2020-12-31",
+    "note": "Bus",
+    "emotion": 0,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 191000,
+    "date": "2020-11-06",
+    "note": "Footwear",
+    "emotion": 1,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 468000,
+    "date": "2020-11-14",
+    "note": "Bus",
+    "emotion": 3,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 76000,
+    "date": "2020-11-22",
+    "note": "Game",
+    "emotion": 3,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 407000,
+    "date": "2021-01-06",
+    "note": "Cafe",
+    "emotion": 2,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 26000,
+    "date": "2021-01-10",
+    "note": "Dinner",
+    "emotion": 0,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 247000,
+    "date": "2020-12-30",
+    "note": "Breakfast",
+    "emotion": 0,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 305000,
+    "date": "2020-11-06",
+    "note": "Marriage",
+    "emotion": 1,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 281000,
+    "date": "2020-11-08",
+    "note": "Marriage",
+    "emotion": 2,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 460000,
+    "date": "2020-11-03",
+    "note": "Doctor",
+    "emotion": 0,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 266000,
+    "date": "2020-11-23",
+    "note": "Real Estate",
+    "emotion": 3,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 155000,
+    "date": "2020-11-29",
+    "note": "Parking Fees",
+    "emotion": 1,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 436000,
+    "date": "2020-12-23",
+    "note": "Stock",
+    "emotion": 3,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 481000,
+    "date": "2021-01-12",
+    "note": "Phone",
+    "emotion": 0,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 483000,
+    "date": "2020-11-30",
+    "note": "Petrol",
+    "emotion": 1,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 414000,
+    "date": "2020-12-21",
+    "note": "Clothing",
+    "emotion": 2,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 438000,
+    "date": "2020-12-27",
+    "note": "Grab bike",
+    "emotion": 0,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 299000,
+    "date": "2021-01-15",
+    "note": "Sport",
+    "emotion": 2,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 476000,
+    "date": "2021-01-03",
+    "note": "Internet",
+    "emotion": 2,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 443000,
+    "date": "2020-12-09",
+    "note": "Funeral",
+    "emotion": 2,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 69000,
+    "date": "2020-11-25",
+    "note": "Bus",
+    "emotion": 1,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 188000,
+    "date": "2020-11-01",
+    "note": "Bus",
+    "emotion": 0,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 186000,
+    "date": "2020-12-27",
+    "note": "Grab bike",
+    "emotion": 0,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 493000,
+    "date": "2021-01-01",
+    "note": "Phone",
+    "emotion": 0,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 491000,
+    "date": "2020-11-30",
+    "note": "Funeral",
+    "emotion": 2,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 33000,
+    "date": "2020-12-19",
+    "note": "Movie",
+    "emotion": 2,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 225000,
+    "date": "2021-01-18",
+    "note": "Footwear",
+    "emotion": 3,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 231000,
+    "date": "2020-11-25",
+    "note": "Petrol",
+    "emotion": 2,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 357000,
+    "date": "2020-11-23",
+    "note": "Cafe",
+    "emotion": 2,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 414000,
+    "date": "2020-12-18",
+    "note": "Charity",
+    "emotion": 0,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 120000,
+    "date": "2020-11-11",
+    "note": "Breakfast",
+    "emotion": 0,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 215000,
+    "date": "2020-12-25",
+    "note": "Movie",
+    "emotion": 3,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 39000,
+    "date": "2020-12-05",
+    "note": "Petrol",
+    "emotion": 1,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 206000,
+    "date": "2021-01-04",
+    "note": "Accessories",
+    "emotion": 0,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 148000,
+    "date": "2020-11-05",
+    "note": "Breakfast",
+    "emotion": 3,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 336000,
+    "date": "2020-11-21",
+    "note": "Personal Care",
+    "emotion": 0,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 233000,
+    "date": "2020-11-21",
+    "note": "Dinner",
+    "emotion": 3,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 273000,
+    "date": "2020-11-08",
+    "note": "Dinner",
+    "emotion": 2,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 213000,
+    "date": "2021-01-02",
+    "note": "Real Estate",
+    "emotion": 3,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 229000,
+    "date": "2020-12-27",
+    "note": "Movie",
+    "emotion": 2,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 243000,
+    "date": "2021-01-16",
+    "note": "Parking Fees",
+    "emotion": 2,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 331000,
+    "date": "2021-01-30",
+    "note": "Movie",
+    "emotion": 2,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 237000,
+    "date": "2020-12-27",
+    "note": "Stock",
+    "emotion": 0,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 38000,
+    "date": "2020-11-12",
+    "note": "Charity",
+    "emotion": 2,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 122000,
+    "date": "2020-11-02",
+    "note": "Pharmacy",
+    "emotion": 2,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 444000,
+    "date": "2020-11-20",
+    "note": "Pharmacy",
+    "emotion": 2,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 487000,
+    "date": "2020-11-15",
+    "note": "Accessories",
+    "emotion": 0,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 171000,
+    "date": "2020-11-25",
+    "note": "Funeral",
+    "emotion": 0,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 292000,
+    "date": "2020-11-26",
+    "note": "Dinner",
+    "emotion": 3,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 304000,
+    "date": "2020-12-29",
+    "note": "Parking Fees",
+    "emotion": 3,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 151000,
+    "date": "2020-12-16",
+    "note": "Accessories",
+    "emotion": 3,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 59000,
+    "date": "2020-12-31",
+    "note": "Dinner",
+    "emotion": 2,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 395000,
+    "date": "2020-11-26",
+    "note": "Sport",
+    "emotion": 2,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 401000,
+    "date": "2020-11-07",
+    "note": "Marriage",
+    "emotion": 0,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 452000,
+    "date": "2021-01-30",
+    "note": "Grab bike",
+    "emotion": 0,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 120000,
+    "date": "2020-12-06",
+    "note": "Accessories",
+    "emotion": 2,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 423000,
+    "date": "2020-11-30",
+    "note": "Footwear",
+    "emotion": 1,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 147000,
+    "date": "2020-11-27",
+    "note": "Parking Fees",
+    "emotion": 2,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 247000,
+    "date": "2020-12-18",
+    "note": "Funeral",
+    "emotion": 3,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 191000,
+    "date": "2020-12-08",
+    "note": "Phone",
+    "emotion": 3,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 234000,
+    "date": "2020-11-28",
+    "note": "Marriage",
+    "emotion": 2,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 142000,
+    "date": "2020-11-28",
+    "note": "Cafe",
+    "emotion": 3,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 246000,
+    "date": "2020-12-10",
+    "note": "Sport",
+    "emotion": 3,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 333000,
+    "date": "2021-01-27",
+    "note": "Parking Fees",
+    "emotion": 2,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 489000,
+    "date": "2021-01-27",
+    "note": "Doctor",
+    "emotion": 1,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 64000,
+    "date": "2021-01-26",
+    "note": "Electronics",
+    "emotion": 2,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 140000,
+    "date": "2020-12-24",
+    "note": "Phone",
+    "emotion": 0,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 456000,
+    "date": "2020-11-03",
+    "note": "Movie",
+    "emotion": 3,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 80000,
+    "date": "2020-12-09",
+    "note": "Charity",
+    "emotion": 2,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 432000,
+    "date": "2020-11-02",
+    "note": "Bus",
+    "emotion": 1,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 412000,
+    "date": "2020-11-14",
+    "note": "Doctor",
+    "emotion": 0,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 94000,
+    "date": "2020-12-01",
+    "note": "Personal Care",
+    "emotion": 1,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 312000,
+    "date": "2020-11-20",
+    "note": "Movie",
+    "emotion": 1,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 49000,
+    "date": "2020-12-24",
+    "note": "Electronics",
+    "emotion": 1,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 61000,
+    "date": "2020-11-09",
+    "note": "Real Estate",
+    "emotion": 0,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 350000,
+    "date": "2020-11-11",
+    "note": "Cafe",
+    "emotion": 3,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 375000,
+    "date": "2021-01-26",
+    "note": "Breakfast",
+    "emotion": 2,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 258000,
+    "date": "2020-12-16",
+    "note": "Electronics",
+    "emotion": 0,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 394000,
+    "date": "2020-11-22",
+    "note": "Funeral",
+    "emotion": 3,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 461000,
+    "date": "2020-11-06",
+    "note": "Internet",
+    "emotion": 2,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 26000,
+    "date": "2020-11-07",
+    "note": "Marriage",
+    "emotion": 1,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 449000,
+    "date": "2021-01-04",
+    "note": "Real Estate",
+    "emotion": 0,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 175000,
+    "date": "2020-12-27",
+    "note": "Petrol",
+    "emotion": 1,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 152000,
+    "date": "2020-11-01",
+    "note": "Breakfast",
+    "emotion": 2,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 93000,
+    "date": "2021-01-21",
+    "note": "Movie",
+    "emotion": 3,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 128000,
+    "date": "2021-01-31",
+    "note": "Movie",
+    "emotion": 2,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 326000,
+    "date": "2020-11-12",
+    "note": "Movie",
+    "emotion": 2,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 161000,
+    "date": "2020-12-19",
+    "note": "Stock",
+    "emotion": 1,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 23000,
+    "date": "2020-11-25",
+    "note": "Phone",
+    "emotion": 3,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 444000,
+    "date": "2021-01-05",
+    "note": "Electronics",
+    "emotion": 3,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 485000,
+    "date": "2020-11-10",
+    "note": "Marriage",
+    "emotion": 0,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 199000,
+    "date": "2020-11-15",
+    "note": "Charity",
+    "emotion": 0,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 195000,
+    "date": "2020-11-14",
+    "note": "Clothing",
+    "emotion": 1,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 462000,
+    "date": "2020-12-17",
+    "note": "Bus",
+    "emotion": 0,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 499000,
+    "date": "2020-12-14",
+    "note": "Game",
+    "emotion": 2,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 409000,
+    "date": "2020-11-30",
+    "note": "Movie",
+    "emotion": 3,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 370000,
+    "date": "2020-11-10",
+    "note": "Sport",
+    "emotion": 0,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 194000,
+    "date": "2020-12-16",
+    "note": "Parking Fees",
+    "emotion": 0,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 335000,
+    "date": "2020-12-08",
+    "note": "Stock",
+    "emotion": 3,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 450000,
+    "date": "2021-01-15",
+    "note": "Doctor",
+    "emotion": 0,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 27000,
+    "date": "2020-11-08",
+    "note": "Petrol",
+    "emotion": 0,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 271000,
+    "date": "2020-11-18",
+    "note": "Real Estate",
+    "emotion": 1,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 396000,
+    "date": "2020-12-03",
+    "note": "Charity",
+    "emotion": 0,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 393000,
+    "date": "2020-12-02",
+    "note": "Game",
+    "emotion": 0,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 220000,
+    "date": "2020-11-27",
+    "note": "Doctor",
+    "emotion": 3,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 418000,
+    "date": "2021-01-25",
+    "note": "Parking Fees",
+    "emotion": 1,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 22000,
+    "date": "2020-12-13",
+    "note": "Game",
+    "emotion": 2,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 420000,
+    "date": "2020-11-06",
+    "note": "Movie",
+    "emotion": 0,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 413000,
+    "date": "2020-12-21",
+    "note": "Marriage",
+    "emotion": 2,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 350000,
+    "date": "2020-12-13",
+    "note": "Petrol",
+    "emotion": 3,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 345000,
+    "date": "2020-12-08",
+    "note": "Sport",
+    "emotion": 2,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 384000,
+    "date": "2020-11-09",
+    "note": "Charity",
+    "emotion": 3,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 412000,
+    "date": "2020-12-09",
+    "note": "Breakfast",
+    "emotion": 1,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 91000,
+    "date": "2020-11-11",
+    "note": "Breakfast",
+    "emotion": 3,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 313000,
+    "date": "2020-11-29",
+    "note": "Electricity",
+    "emotion": 3,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 249000,
+    "date": "2020-12-21",
+    "note": "Funeral",
+    "emotion": 3,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 424000,
+    "date": "2020-12-28",
+    "note": "Electronics",
+    "emotion": 3,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 45000,
+    "date": "2020-12-19",
+    "note": "Charity",
+    "emotion": 3,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 380000,
+    "date": "2021-01-02",
+    "note": "Electronics",
+    "emotion": 1,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 449000,
+    "date": "2021-01-12",
+    "note": "Cafe",
+    "emotion": 2,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 339000,
+    "date": "2021-01-17",
+    "note": "Charity",
+    "emotion": 1,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 469000,
+    "date": "2021-01-21",
+    "note": "Accessories",
+    "emotion": 2,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 379000,
+    "date": "2020-12-16",
+    "note": "Breakfast",
+    "emotion": 0,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 213000,
+    "date": "2020-12-08",
+    "note": "Doctor",
+    "emotion": 3,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 446000,
+    "date": "2021-01-31",
+    "note": "Accessories",
+    "emotion": 0,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 348000,
+    "date": "2020-12-03",
+    "note": "Pharmacy",
+    "emotion": 2,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 297000,
+    "date": "2020-11-06",
+    "note": "Marriage",
+    "emotion": 3,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 155000,
+    "date": "2020-12-02",
+    "note": "Marriage",
+    "emotion": 3,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 238000,
+    "date": "2020-12-20",
+    "note": "Electricity",
+    "emotion": 2,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 444000,
+    "date": "2020-11-08",
+    "note": "Real Estate",
+    "emotion": 3,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 110000,
+    "date": "2020-11-02",
+    "note": "Funeral",
+    "emotion": 1,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 495000,
+    "date": "2021-01-03",
+    "note": "Lunch",
+    "emotion": 2,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 361000,
+    "date": "2021-01-14",
+    "note": "Pharmacy",
+    "emotion": 0,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 216000,
+    "date": "2020-11-09",
+    "note": "Real Estate",
+    "emotion": 3,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 477000,
+    "date": "2020-11-15",
+    "note": "Game",
+    "emotion": 3,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 421000,
+    "date": "2020-12-07",
+    "note": "Parking Fees",
+    "emotion": 0,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 428000,
+    "date": "2021-01-12",
+    "note": "Phone",
+    "emotion": 3,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 335000,
+    "date": "2020-12-03",
+    "note": "Phone",
+    "emotion": 2,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 392000,
+    "date": "2020-11-02",
+    "note": "Internet",
+    "emotion": 3,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 455000,
+    "date": "2021-01-19",
+    "note": "Movie",
+    "emotion": 3,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 227000,
+    "date": "2020-11-17",
+    "note": "Funeral",
+    "emotion": 2,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 221000,
+    "date": "2020-12-09",
+    "note": "Doctor",
+    "emotion": 2,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 350000,
+    "date": "2020-11-11",
+    "note": "Bus",
+    "emotion": 2,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 288000,
+    "date": "2020-12-09",
+    "note": "Clothing",
+    "emotion": 1,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 238000,
+    "date": "2020-11-27",
+    "note": "Funeral",
+    "emotion": 2,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 448000,
+    "date": "2020-12-02",
+    "note": "Game",
+    "emotion": 2,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 61000,
+    "date": "2021-01-05",
+    "note": "Pharmacy",
+    "emotion": 0,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 105000,
+    "date": "2020-11-11",
+    "note": "Movie",
+    "emotion": 1,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 129000,
+    "date": "2021-01-28",
+    "note": "Personal Care",
+    "emotion": 0,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 478000,
+    "date": "2021-01-05",
+    "note": "Footwear",
+    "emotion": 0,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 158000,
+    "date": "2020-12-17",
+    "note": "Bus",
+    "emotion": 2,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 398000,
+    "date": "2021-01-17",
+    "note": "Movie",
+    "emotion": 0,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 223000,
+    "date": "2020-11-25",
+    "note": "Phone",
+    "emotion": 3,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 364000,
+    "date": "2020-11-16",
+    "note": "Parking Fees",
+    "emotion": 0,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 281000,
+    "date": "2020-11-13",
+    "note": "Breakfast",
+    "emotion": 2,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 321000,
+    "date": "2021-01-21",
+    "note": "Water",
+    "emotion": 3,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 448000,
+    "date": "2020-12-09",
+    "note": "Breakfast",
+    "emotion": 3,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 141000,
+    "date": "2020-12-19",
+    "note": "Marriage",
+    "emotion": 1,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 83000,
+    "date": "2020-11-28",
+    "note": "Game",
+    "emotion": 2,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 267000,
+    "date": "2020-12-05",
+    "note": "Breakfast",
+    "emotion": 3,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 489000,
+    "date": "2020-12-02",
+    "note": "Bus",
+    "emotion": 2,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 317000,
+    "date": "2021-01-21",
+    "note": "Sport",
+    "emotion": 3,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 239000,
+    "date": "2021-01-21",
+    "note": "Doctor",
+    "emotion": 1,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 145000,
+    "date": "2021-01-26",
+    "note": "Phone",
+    "emotion": 0,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 360000,
+    "date": "2020-12-08",
+    "note": "Stock",
+    "emotion": 1,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 190000,
+    "date": "2020-12-28",
+    "note": "Bus",
+    "emotion": 2,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 434000,
+    "date": "2020-12-13",
+    "note": "Personal Care",
+    "emotion": 3,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 212000,
+    "date": "2020-12-14",
+    "note": "Electricity",
+    "emotion": 1,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 468000,
+    "date": "2020-12-05",
+    "note": "Funeral",
+    "emotion": 0,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 235000,
+    "date": "2020-11-24",
+    "note": "Grab bike",
+    "emotion": 3,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 52000,
+    "date": "2021-01-29",
+    "note": "Footwear",
+    "emotion": 2,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 170000,
+    "date": "2020-11-24",
+    "note": "Clothing",
+    "emotion": 3,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 38000,
+    "date": "2021-01-31",
+    "note": "Bus",
+    "emotion": 2,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 430000,
+    "date": "2021-01-27",
+    "note": "Lunch",
+    "emotion": 2,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 337000,
+    "date": "2020-11-25",
+    "note": "Clothing",
+    "emotion": 2,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 111000,
+    "date": "2020-12-31",
+    "note": "Parking Fees",
+    "emotion": 2,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 213000,
+    "date": "2020-12-02",
+    "note": "Movie",
+    "emotion": 3,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 263000,
+    "date": "2021-01-23",
+    "note": "Grab bike",
+    "emotion": 1,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 166000,
+    "date": "2020-11-12",
+    "note": "Real Estate",
+    "emotion": 1,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 443000,
+    "date": "2021-01-21",
+    "note": "Parking Fees",
+    "emotion": 2,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 79000,
+    "date": "2021-01-10",
+    "note": "Clothing",
+    "emotion": 0,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 112000,
+    "date": "2020-11-06",
+    "note": "Breakfast",
+    "emotion": 2,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 340000,
+    "date": "2020-11-13",
+    "note": "Personal Care",
+    "emotion": 2,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 134000,
+    "date": "2020-11-29",
+    "note": "Personal Care",
+    "emotion": 0,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 416000,
+    "date": "2020-11-01",
+    "note": "Dinner",
+    "emotion": 3,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 324000,
+    "date": "2021-01-08",
+    "note": "Real Estate",
+    "emotion": 2,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 53000,
+    "date": "2021-01-29",
+    "note": "Internet",
+    "emotion": 3,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 268000,
+    "date": "2020-12-05",
+    "note": "Stock",
+    "emotion": 0,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 296000,
+    "date": "2021-01-01",
+    "note": "Internet",
+    "emotion": 1,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 39000,
+    "date": "2020-12-01",
+    "note": "Breakfast",
+    "emotion": 1,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 137000,
+    "date": "2021-01-04",
+    "note": "Internet",
+    "emotion": 3,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 324000,
+    "date": "2020-11-21",
+    "note": "Petrol",
+    "emotion": 3,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 395000,
+    "date": "2021-01-18",
+    "note": "Footwear",
+    "emotion": 2,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 245000,
+    "date": "2020-11-16",
+    "note": "Charity",
+    "emotion": 1,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 80000,
+    "date": "2020-11-07",
+    "note": "Stock",
+    "emotion": 2,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 469000,
+    "date": "2020-12-03",
+    "note": "Personal Care",
+    "emotion": 1,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 248000,
+    "date": "2021-01-24",
+    "note": "Stock",
+    "emotion": 0,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 466000,
+    "date": "2020-12-08",
+    "note": "Funeral",
+    "emotion": 3,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 300000,
+    "date": "2020-11-23",
+    "note": "Breakfast",
+    "emotion": 1,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 216000,
+    "date": "2020-11-25",
+    "note": "Grab bike",
+    "emotion": 0,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 343000,
+    "date": "2021-01-06",
+    "note": "Funeral",
+    "emotion": 2,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 73000,
+    "date": "2020-12-15",
+    "note": "Charity",
+    "emotion": 0,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 25000,
+    "date": "2020-11-08",
+    "note": "Marriage",
+    "emotion": 3,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 137000,
+    "date": "2020-11-23",
+    "note": "Real Estate",
+    "emotion": 1,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 301000,
+    "date": "2021-01-31",
+    "note": "Breakfast",
+    "emotion": 0,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 430000,
+    "date": "2020-11-30",
+    "note": "Real Estate",
+    "emotion": 2,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 265000,
+    "date": "2020-11-30",
+    "note": "Lunch",
+    "emotion": 3,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 255000,
+    "date": "2020-11-23",
+    "note": "Real Estate",
+    "emotion": 3,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 79000,
+    "date": "2021-01-18",
+    "note": "Cafe",
+    "emotion": 0,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 174000,
+    "date": "2020-11-30",
+    "note": "Grab bike",
+    "emotion": 1,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 151000,
+    "date": "2020-12-12",
+    "note": "Real Estate",
+    "emotion": 3,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 307000,
+    "date": "2020-12-25",
+    "note": "Stock",
+    "emotion": 1,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 247000,
+    "date": "2020-12-01",
+    "note": "Phone",
+    "emotion": 1,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 209000,
+    "date": "2021-01-24",
+    "note": "Doctor",
+    "emotion": 0,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 232000,
+    "date": "2021-01-14",
+    "note": "Internet",
+    "emotion": 3,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 180000,
+    "date": "2020-11-29",
+    "note": "Bus",
+    "emotion": 0,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 326000,
+    "date": "2021-01-11",
+    "note": "Breakfast",
+    "emotion": 0,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 408000,
+    "date": "2021-01-15",
+    "note": "Stock",
+    "emotion": 3,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 317000,
+    "date": "2020-12-18",
+    "note": "Marriage",
+    "emotion": 3,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 50000,
+    "date": "2020-11-03",
+    "note": "Petrol",
+    "emotion": 1,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 91000,
+    "date": "2021-01-09",
+    "note": "Stock",
+    "emotion": 2,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 210000,
+    "date": "2021-01-29",
+    "note": "Sport",
+    "emotion": 0,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 394000,
+    "date": "2020-12-01",
+    "note": "Personal Care",
+    "emotion": 1,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 388000,
+    "date": "2020-12-27",
+    "note": "Movie",
+    "emotion": 1,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 452000,
+    "date": "2020-11-28",
+    "note": "Marriage",
+    "emotion": 3,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 275000,
+    "date": "2021-01-10",
+    "note": "Sport",
+    "emotion": 0,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 169000,
+    "date": "2021-01-30",
+    "note": "Movie",
+    "emotion": 3,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 206000,
+    "date": "2021-01-04",
+    "note": "Sport",
+    "emotion": 0,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 44000,
+    "date": "2021-01-15",
+    "note": "Marriage",
+    "emotion": 0,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 165000,
+    "date": "2021-01-18",
+    "note": "Real Estate",
+    "emotion": 1,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 138000,
+    "date": "2020-12-15",
+    "note": "Stock",
+    "emotion": 0,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 371000,
+    "date": "2021-01-02",
+    "note": "Marriage",
+    "emotion": 0,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 324000,
+    "date": "2021-01-23",
+    "note": "Real Estate",
+    "emotion": 0,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 412000,
+    "date": "2020-12-30",
+    "note": "Electricity",
+    "emotion": 1,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 232000,
+    "date": "2020-12-03",
+    "note": "Movie",
+    "emotion": 1,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 55000,
+    "date": "2020-12-13",
+    "note": "Dinner",
+    "emotion": 2,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 492000,
+    "date": "2021-01-07",
+    "note": "Marriage",
+    "emotion": 2,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 365000,
+    "date": "2021-01-21",
+    "note": "Bus",
+    "emotion": 1,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 213000,
+    "date": "2020-11-06",
+    "note": "Dinner",
+    "emotion": 2,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 461000,
+    "date": "2021-01-26",
+    "note": "Stock",
+    "emotion": 3,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 347000,
+    "date": "2020-12-12",
+    "note": "Petrol",
+    "emotion": 2,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 185000,
+    "date": "2021-01-03",
+    "note": "Footwear",
+    "emotion": 1,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 173000,
+    "date": "2020-11-03",
+    "note": "Charity",
+    "emotion": 0,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 347000,
+    "date": "2020-12-12",
+    "note": "Grab bike",
+    "emotion": 3,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 378000,
+    "date": "2021-01-12",
+    "note": "Charity",
+    "emotion": 2,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 325000,
+    "date": "2020-12-19",
+    "note": "Movie",
+    "emotion": 2,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 380000,
+    "date": "2020-11-22",
+    "note": "Game",
+    "emotion": 0,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 468000,
+    "date": "2020-11-26",
+    "note": "Electricity",
+    "emotion": 0,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 146000,
+    "date": "2020-12-07",
+    "note": "Real Estate",
+    "emotion": 0,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 54000,
+    "date": "2020-11-07",
+    "note": "Movie",
+    "emotion": 1,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 56000,
+    "date": "2020-11-30",
+    "note": "Real Estate",
+    "emotion": 0,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 464000,
+    "date": "2020-12-31",
+    "note": "Dinner",
+    "emotion": 1,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 492000,
+    "date": "2021-01-23",
+    "note": "Personal Care",
+    "emotion": 1,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 74000,
+    "date": "2020-11-11",
+    "note": "Dinner",
+    "emotion": 2,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 349000,
+    "date": "2020-11-23",
+    "note": "Electricity",
+    "emotion": 3,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 425000,
+    "date": "2020-12-10",
+    "note": "Dinner",
+    "emotion": 0,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 290000,
+    "date": "2020-12-24",
+    "note": "Electricity",
+    "emotion": 2,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 306000,
+    "date": "2020-12-21",
+    "note": "Clothing",
+    "emotion": 0,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 26000,
+    "date": "2020-11-04",
+    "note": "Dinner",
+    "emotion": 0,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 211000,
+    "date": "2021-01-29",
+    "note": "Phone",
+    "emotion": 0,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 390000,
+    "date": "2021-01-08",
+    "note": "Grab bike",
+    "emotion": 2,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 173000,
+    "date": "2021-01-06",
+    "note": "Movie",
+    "emotion": 1,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 105000,
+    "date": "2020-11-25",
+    "note": "Marriage",
+    "emotion": 1,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 354000,
+    "date": "2020-11-11",
+    "note": "Real Estate",
+    "emotion": 3,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 228000,
+    "date": "2021-01-21",
+    "note": "Marriage",
+    "emotion": 0,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 339000,
+    "date": "2021-01-07",
+    "note": "Sport",
+    "emotion": 3,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 487000,
+    "date": "2020-11-14",
+    "note": "Sport",
+    "emotion": 0,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 437000,
+    "date": "2021-01-09",
+    "note": "Game",
+    "emotion": 1,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 107000,
+    "date": "2020-11-05",
+    "note": "Doctor",
+    "emotion": 1,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 489000,
+    "date": "2020-11-22",
+    "note": "Petrol",
+    "emotion": 3,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 434000,
+    "date": "2020-11-19",
+    "note": "Pharmacy",
+    "emotion": 3,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 363000,
+    "date": "2021-01-11",
+    "note": "Bus",
+    "emotion": 1,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 319000,
+    "date": "2020-12-27",
+    "note": "Dinner",
+    "emotion": 2,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 240000,
+    "date": "2020-12-11",
+    "note": "Clothing",
+    "emotion": 2,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 95000,
+    "date": "2021-01-18",
+    "note": "Electronics",
+    "emotion": 2,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 118000,
+    "date": "2020-11-05",
+    "note": "Charity",
+    "emotion": 0,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 216000,
+    "date": "2021-01-03",
+    "note": "Lunch",
+    "emotion": 0,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 473000,
+    "date": "2021-01-17",
+    "note": "Footwear",
+    "emotion": 2,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 288000,
+    "date": "2020-12-21",
+    "note": "Real Estate",
+    "emotion": 3,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 349000,
+    "date": "2021-01-03",
+    "note": "Bus",
+    "emotion": 0,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 230000,
+    "date": "2021-01-23",
+    "note": "Bus",
+    "emotion": 3,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 201000,
+    "date": "2020-11-04",
+    "note": "Stock",
+    "emotion": 2,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 200000,
+    "date": "2020-11-03",
+    "note": "Doctor",
+    "emotion": 3,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 65000,
+    "date": "2020-12-13",
+    "note": "Breakfast",
+    "emotion": 1,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 401000,
+    "date": "2021-01-03",
+    "note": "Pharmacy",
+    "emotion": 2,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 342000,
+    "date": "2021-01-19",
+    "note": "Electricity",
+    "emotion": 3,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 379000,
+    "date": "2020-11-27",
+    "note": "Stock",
+    "emotion": 0,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 124000,
+    "date": "2020-12-23",
+    "note": "Bus",
+    "emotion": 3,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 119000,
+    "date": "2020-12-14",
+    "note": "Phone",
+    "emotion": 2,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 100000,
+    "date": "2020-12-26",
+    "note": "Bus",
+    "emotion": 1,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 308000,
+    "date": "2020-11-30",
+    "note": "Marriage",
+    "emotion": 2,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 185000,
+    "date": "2020-11-13",
+    "note": "Grab bike",
+    "emotion": 3,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 383000,
+    "date": "2020-12-08",
+    "note": "Parking Fees",
+    "emotion": 3,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 348000,
+    "date": "2020-11-23",
+    "note": "Stock",
+    "emotion": 3,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 125000,
+    "date": "2020-11-23",
+    "note": "Doctor",
+    "emotion": 1,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 199000,
+    "date": "2020-12-09",
+    "note": "Lunch",
+    "emotion": 2,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 390000,
+    "date": "2021-01-05",
+    "note": "Water",
+    "emotion": 1,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 58000,
+    "date": "2021-01-11",
+    "note": "Real Estate",
+    "emotion": 1,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 474000,
+    "date": "2020-11-22",
+    "note": "Stock",
+    "emotion": 1,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 150000,
+    "date": "2020-12-25",
+    "note": "Footwear",
+    "emotion": 0,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 270000,
+    "date": "2021-01-01",
+    "note": "Parking Fees",
+    "emotion": 0,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 101000,
+    "date": "2021-01-01",
+    "note": "Pharmacy",
+    "emotion": 0,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 434000,
+    "date": "2020-12-15",
+    "note": "Breakfast",
+    "emotion": 2,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 100000,
+    "date": "2020-11-30",
+    "note": "Game",
+    "emotion": 2,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 70000,
+    "date": "2020-11-19",
+    "note": "Electricity",
+    "emotion": 2,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 352000,
+    "date": "2021-01-13",
+    "note": "Dinner",
+    "emotion": 1,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 433000,
+    "date": "2021-01-11",
+    "note": "Water",
+    "emotion": 3,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 309000,
+    "date": "2021-01-17",
+    "note": "Game",
+    "emotion": 2,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 78000,
+    "date": "2020-12-23",
+    "note": "Parking Fees",
+    "emotion": 2,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 263000,
+    "date": "2020-12-11",
+    "note": "Water",
+    "emotion": 0,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 402000,
+    "date": "2020-12-04",
+    "note": "Internet",
+    "emotion": 0,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 397000,
+    "date": "2020-12-12",
+    "note": "Movie",
+    "emotion": 1,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 120000,
+    "date": "2020-12-18",
+    "note": "Movie",
+    "emotion": 1,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 469000,
+    "date": "2020-11-01",
+    "note": "Clothing",
+    "emotion": 1,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 311000,
+    "date": "2020-11-03",
+    "note": "Cafe",
+    "emotion": 3,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 410000,
+    "date": "2020-12-08",
+    "note": "Clothing",
+    "emotion": 2,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 91000,
+    "date": "2021-01-03",
+    "note": "Clothing",
+    "emotion": 3,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 320000,
+    "date": "2020-11-05",
+    "note": "Water",
+    "emotion": 1,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 176000,
+    "date": "2020-12-14",
+    "note": "Stock",
+    "emotion": 0,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 105000,
+    "date": "2021-01-26",
+    "note": "Dinner",
+    "emotion": 3,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 328000,
+    "date": "2020-12-28",
+    "note": "Real Estate",
+    "emotion": 0,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 104000,
+    "date": "2020-11-17",
+    "note": "Clothing",
+    "emotion": 2,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 62000,
+    "date": "2020-11-03",
+    "note": "Phone",
+    "emotion": 0,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 66000,
+    "date": "2020-12-03",
+    "note": "Footwear",
+    "emotion": 0,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 35000,
+    "date": "2020-11-23",
+    "note": "Petrol",
+    "emotion": 2,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 156000,
+    "date": "2020-11-04",
+    "note": "Funeral",
+    "emotion": 3,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 297000,
+    "date": "2021-01-12",
+    "note": "Stock",
+    "emotion": 0,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 45000,
+    "date": "2020-12-28",
+    "note": "Clothing",
+    "emotion": 2,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 467000,
+    "date": "2020-11-01",
+    "note": "Pharmacy",
+    "emotion": 1,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 82000,
+    "date": "2021-01-28",
+    "note": "Game",
+    "emotion": 0,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 374000,
+    "date": "2020-12-20",
+    "note": "Charity",
+    "emotion": 3,
+    "category": {
+      "name": "Gifts & Donation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 231000,
+    "date": "2021-01-19",
+    "note": "Pharmacy",
+    "emotion": 0,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 90000,
+    "date": "2021-01-16",
+    "note": "Movie",
+    "emotion": 0,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 102000,
+    "date": "2020-11-14",
+    "note": "Petrol",
+    "emotion": 1,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 363000,
+    "date": "2020-12-14",
+    "note": "Petrol",
+    "emotion": 2,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 338000,
+    "date": "2020-11-02",
+    "note": "Stock",
+    "emotion": 2,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 63000,
+    "date": "2020-11-12",
+    "note": "Game",
+    "emotion": 1,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 337000,
+    "date": "2020-12-13",
+    "note": "Game",
+    "emotion": 2,
+    "category": {
+      "name": "Entertainment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 497000,
+    "date": "2021-01-12",
+    "note": "Parking Fees",
+    "emotion": 0,
+    "category": {
+      "name": "Transportation",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 151000,
+    "date": "2020-12-22",
+    "note": "Internet",
+    "emotion": 2,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 463000,
+    "date": "2020-12-05",
+    "note": "Clothing",
+    "emotion": 2,
+    "category": {
+      "name": "Shopping",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 179000,
+    "date": "2020-11-11",
+    "note": "Sport",
+    "emotion": 1,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 133000,
+    "date": "2020-11-30",
+    "note": "Real Estate",
+    "emotion": 2,
+    "category": {
+      "name": "Investment",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 265000,
+    "date": "2020-11-02",
+    "note": "Phone",
+    "emotion": 1,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 495000,
+    "date": "2021-01-23",
+    "note": "Dinner",
+    "emotion": 0,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 247000,
+    "date": "2020-12-28",
+    "note": "Internet",
+    "emotion": 0,
+    "category": {
+      "name": "Bill & Utilities",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 152000,
+    "date": "2020-11-10",
+    "note": "Pharmacy",
+    "emotion": 2,
+    "category": {
+      "name": "Health&Fitness",
+      "icon": ""
+    }
+  },
+  {
+    "cost": 93000,
+    "date": "2021-01-03",
+    "note": "Breakfast",
+    "emotion": 2,
+    "category": {
+      "name": "Food & Baverage",
+      "icon": ""
+    }
+  }
+]
