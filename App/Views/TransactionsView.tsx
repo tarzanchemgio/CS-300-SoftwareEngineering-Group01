@@ -31,8 +31,8 @@ export function TransactionsView({ navigation }: any) {
 					{
 						flex: 21,
 						justifyContent: "flex-start",
-						borderColor: "blue",
-						borderWidth: 5,
+						// borderColor: "blue",
+						// borderWidth: 5,
 						width: "100%",
 					},
 				]}
@@ -44,8 +44,8 @@ export function TransactionsView({ navigation }: any) {
 
 							justifyContent: "flex-end",
 							width: "100%",
-							borderColor: "red",
-							borderWidth: 3,
+							// borderColor: "red",
+							// borderWidth: 3,
 						},
 					]}
 				>
@@ -73,8 +73,8 @@ export function TransactionsView({ navigation }: any) {
 							height: "27%",
 							justifyContent: "flex-start",
 							width: "100%",
-							borderColor: "purple",
-							borderWidth: 3,
+							// borderColor: "purple",
+							// borderWidth: 3,
 						},
 					]}
 				>
@@ -107,8 +107,8 @@ export function TransactionsView({ navigation }: any) {
 							height: "60%",
 							justifyContent: "flex-end",
 							width: "100%",
-							borderColor: "pink",
-							borderWidth: 3,
+							// borderColor: "pink",
+							// borderWidth: 3,
 						},
 					]}
 				></View>

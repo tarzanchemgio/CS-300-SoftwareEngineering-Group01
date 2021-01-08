@@ -1,10 +1,10 @@
 {
-  "expoServerPort": null,
-  "expoServerNgrokUrl": null,
-  "packagerNgrokUrl": null,
-  "ngrokPid": null,
-  "devToolsPort": 19002,
-  "packagerPort": null,
-  "packagerPid": null,
-  "webpackServerPort": null
+  "expoServerPort": 19000,
+  "packagerPort": 19001,
+  "packagerPid": 436,
+  "expoServerNgrokUrl": "https://fw-eze.kafkawannafly.app.exp.direct",
+  "packagerNgrokUrl": "https://packager.fw-eze.kafkawannafly.app.exp.direct",
+  "ngrokPid": 10592,
+  "webpackServerPort": null,
+  "devToolsPort": 19002
 }
